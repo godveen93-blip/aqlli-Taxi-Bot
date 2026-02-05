@@ -13,7 +13,7 @@ from telegram.ext import (
 
 import os
 TOKEN = os.getenv("BOT_TOKEN")
-ADMINS = {123456789}  # ADMIN TELEGRAM ID
+ADMINS = {240229643}  # ADMIN TELEGRAM ID
 
 logging.basicConfig(level=logging.INFO)
 
