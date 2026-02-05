@@ -11,7 +11,8 @@ from telegram.ext import (
     CallbackQueryHandler, filters
 )
 
-TOKEN = "PASTE_YOUR_BOT_TOKEN_HERE"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 ADMINS = {123456789}  # ADMIN TELEGRAM ID
 
 logging.basicConfig(level=logging.INFO)
